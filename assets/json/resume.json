@@ -210,37 +210,86 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Sustainability Benchmark Automation",
+      "summary": "",
+      "highlights": [
+        "Full-stack web solution for automating ESG PDF report analysis, deployed on Azure App Service.",
+        "Led a team of 4 to design and deploy a web solution during a company-wide hackathon, automating Environmental, Social, and Governance (ESG) PDF report analysis.",
+        "Engineered a RAG pipeline integrating Azure Form Recognizer for PDF-to-text extraction, Azure Search Index for context retrieval, and Azure OpenAI (GPT-4) for Q&A on 100+ page ESG documents."
+      ],
+      "technologies": ["Python", "Flask", "Streamlit", "Azure SDKs"],
+  "startDate": "2024-03",
+  "url": ""
     },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Weed Detection using Vision Transformers (ViT) - Final Year B.Tech Thesis Project",
+      "summary": "",
+      "highlights": [
+        "Divided the problem into classification and localization/detection tasks, conducting research for each separately.",
+        "Proposed Vision Transformer as the feature extractor backbone for Detection Transformer, achieving mAP@0.5 of 82.9% on the cottonweed dataset, a 7% improvement over state-of-the-art CNN-based detectors.",
+        "Published a survey paper at IEEE ASIANCON, providing a detailed taxonomy of weed detection techniques and the future potential of ViT in real-time smart farming solutions."
+      ],
+      "technologies": ["Python", "Vision Transformers", "Deep Learning"],
+  "startDate": "2023-05",
+  "url": ""
     },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "User-Threads - Operating Systems",
+      "summary": "",
+      "highlights": [
+        "Built a user-level multi-threading library in C, supporting one-one, many-one, and many-many mapping models.",
+        "Exposed APIs for thread lifecycle management, implemented synchronization primitives like spinlock and signal handlers for over 50+ signals.",
+        "Validated models using race conditions and achieved 80% reduction in execution time for matrix multiplications."
+      ],
+      "technologies": ["C", "Systems Programming", "Multithreading", "Coroutines", "Bash"],
+  "startDate": "2022-05",
+  "url": "https://github.com/abhi25072002/user-threads-os"
     },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-
-  ]
+      "name": "HTTP Server - Computer Networks",
+      "summary": "",
+      "highlights": [
+        "Developed a multithreaded HTTP/1.1-compliant web server in Python following RFC 2616 standards.",
+        "Implemented 5 HTTP methods (GET, POST, PUT, DELETE, HEAD), 15 status codes, 5 media types, and multipart form data handling.",
+        "Designed a customizable configuration file(similar to apache.conf) for server-side settings with 12+ configurations (e.g., Keep-Alive, timeout, persistent connections)."
+      ],
+      "technologies": ["Python", "Socket Programming", "threading library", "MDN Docs"],
+  "startDate": "2021-11",
+  "url": "https://github.com/abhi25072002/http-server"
+    },
+    {
+      "name": "Paint Application - Object Oriented Programming (C++)",
+      "summary": "",
+      "highlights": [
+        "Developed using pillars of Object Oriented Programming in C++ with OpenGL for graphics and GLUT for event handling.",
+        "Implemented drawing shapes using algorithms, undo/redo, erase shapes, styling (area filling, border coloring, brush)."
+      ],
+      "technologies": ["C++", "OpenGL", "GLUT", "OOPs"],
+      "url": "",
+      "startDate": "2021-04"
+    },
+    {
+      "name": "Arbitrary-Precision Calculator (C)",
+      "summary": "",
+      "highlights": [
+        "Implemented a bc command-like tool in C capable of handling very large numbers, using custom user-defined data structures.",
+        "Created a struct 'number' storing values as a doubly linked list, with sign and precision fields for arbitrary-precision arithmetic.",
+        "Used a stack of numbers for infix expression evaluation and a finite state machine (FSM) for parsing and computation.",
+        "Supported operations: addition, multiplication, subtraction, sdivision, exponentiation, negatives, and infix expression evaluation."
+      ],
+      "technologies": ["C", "Finite State Machine", "makefile"],
+      "url": "",
+      "startDate": "2021-02"
+    },
+  {
+  "name": "BankTrack - Banking Application",
+  "summary": "Full-stack banking application simulating account management, secure transactions, and admin operations in a 1-sprint Agile workflow.",
+  "highlights": [
+    "Implemented user registration, login with JWT authentication, backend validations, transaction management, and email/OTP-based verification for card transactions.",
+    "Features include frontend form validations, responsive UI with React, admin panel with dashboard, transaction history, fund transfer, import/export of transactions, and role-based API access."
+  ],
+  "technologies": ["React", "Spring Boot", "PostgreSQL", "Google Guava Cache (OTP)"],
+  "url": "",
+  "startDate": "2023-08"
+}]
 }
