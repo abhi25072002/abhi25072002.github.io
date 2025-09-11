@@ -98,7 +98,7 @@
         "date": "2023-01",
         "awarder": "Alumni Association of COEP",
         "url": "https://www.coep.org.in/",
-        "summary": "Prize instituted by Dr. V. L. Deshpande and Mrs. Usha Deshpande. Awarded for scoring a perfect grade (10/10) in all Mathematics courses (Linear Algebra, Univariate Calculus, Ordinary Differential Equations, Multivariate Calculus, Vector Calculus and Partial Differential Equations, Probability and Statistics for Engineers) at undergraduate level."
+        "summary": "Awarded for scoring a perfect grade (10/10) in all Mathematics courses (Linear Algebra, Calculus, Differential Equations, Probability & Statistics) at undergraduate level."
       },
       {
         "title": "Certificate of Merit (Third Year Topper)",
@@ -219,6 +219,7 @@
       ],
       "technologies": ["Python", "Flask", "Streamlit", "Azure SDKs"],
   "startDate": "2024-03",
+     "endDate": "2024-03",
   "url": ""
     },
     {
@@ -230,7 +231,9 @@
         "Published a survey paper at IEEE ASIANCON, providing a detailed taxonomy of weed detection techniques and the future potential of ViT in real-time smart farming solutions."
       ],
       "technologies": ["Python", "Vision Transformers", "Deep Learning"],
-  "startDate": "2023-05",
+  "startDate": "2023-01",
+    "endDate": "2023-05",
+
   "url": ""
     },
     {
@@ -242,7 +245,9 @@
         "Validated models using race conditions and achieved 80% reduction in execution time for matrix multiplications."
       ],
       "technologies": ["C", "Systems Programming", "Multithreading", "Coroutines", "Bash"],
-  "startDate": "2022-05",
+  "startDate": "2022-03",
+   "endDate": "2022-05",
+
   "url": "https://github.com/abhi25072002/user-threads-os"
     },
     {
@@ -254,7 +259,8 @@
         "Designed a customizable configuration file(similar to apache.conf) for server-side settings with 12+ configurations (e.g., Keep-Alive, timeout, persistent connections)."
       ],
       "technologies": ["Python", "Socket Programming", "threading library", "MDN Docs"],
-  "startDate": "2021-11",
+  "startDate": "2021-09",
+      "endDate": "2021-11",
   "url": "https://github.com/abhi25072002/http-server"
     },
     {
@@ -266,7 +272,8 @@
       ],
       "technologies": ["C++", "OpenGL", "GLUT", "OOPs"],
       "url": "",
-      "startDate": "2021-04"
+      "startDate": "2021-03",
+      "endDate": "2021-04"
     },
     {
       "name": "Arbitrary-Precision Calculator (C)",
@@ -279,17 +286,20 @@
       ],
       "technologies": ["C", "Finite State Machine", "makefile"],
       "url": "",
-      "startDate": "2021-02"
+      "startDate": "2020-09",
+      "endDate": "2020-10"
     },
   {
   "name": "BankTrack - Banking Application",
-  "summary": "Full-stack banking application simulating account management, secure transactions, and admin operations in a 1-sprint Agile workflow.",
   "highlights": [
+    "Full-stack banking application simulating account management, secure transactions, and admin operations in a 1-sprint Agile workflow.s",
     "Implemented user registration, login with JWT authentication, backend validations, transaction management, and email/OTP-based verification for card transactions.",
     "Features include frontend form validations, responsive UI with React, admin panel with dashboard, transaction history, fund transfer, import/export of transactions, and role-based API access."
   ],
   "technologies": ["React", "Spring Boot", "PostgreSQL", "Google Guava Cache (OTP)"],
   "url": "",
-  "startDate": "2023-08"
+  "startDate": "2023-08",
+  "endDate": "2023-08",
+
 }]
 }
