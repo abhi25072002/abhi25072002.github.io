@@ -12,7 +12,7 @@ related_publications: false
 #### 🛠️ Tech Stack
 - **Frontend:** Streamlit (for interactive dashboard)  
 - **Backend:** Flask (Python)  
-- **AzureServices:** Azure App Service, Azure Form Recognizer (Document Intelligence), Azure Search Index, Azure OpenAI GPT-4, Azure Cosmos DBs
+- **Azure Services:** App Service, Form Recognizer, Azure Search Index, Azure SDKs
 ---
 
 #### 📌 Description

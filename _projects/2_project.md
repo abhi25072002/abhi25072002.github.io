@@ -1,11 +1,10 @@
 ---
 layout: page
-title: User-Threads - Operating Systems
+title: User-Threads
 description: Implementation of a user-level multithreading library supporting multiple mapping models in C.
 img: assets/img/threading.png
 importance: 1
 category: non-academic-projects
-giscus_comments: true
 ---
 
 

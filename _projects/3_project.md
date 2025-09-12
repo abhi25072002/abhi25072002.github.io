@@ -5,7 +5,6 @@ description: Implementation of a multithreaded HTTP/1.1-compliant server with re
 img: assets/img/httpserver_response.png
 importance: 1
 category: non-academic-projects
-giscus_comments: true
 ---
 
 #### 🛠️ Tech Stack

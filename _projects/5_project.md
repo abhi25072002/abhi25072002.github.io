@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Paint – Shapes Editor Using OOPs and OpenGL
-description: Interactive C++ Paint application for drawing and manipulating shapes using OOP concepts and OpenGL.
+title: Paint – Shapes Editor
+description: C++ Paint application for drawing and manipulating shapes using OOP concepts and OpenGL.
 img: assets/img/Project3.png
 importance: 1
 category: non-academic-projects
