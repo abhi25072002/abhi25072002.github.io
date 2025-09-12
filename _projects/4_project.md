@@ -9,7 +9,7 @@ category: projects
 
 #### 🛠️ Tech Stack
 - **Languages:** C 
-- **Concepts:** `Data Structures`, `Finite State Machine`, `expression evaluation`  
+- **Concepts:** Data Structures, Finite State Machine
 ---
 
 #### 📌 Description

@@ -5,7 +5,6 @@ description: Full-stack Azure-based solution for ESG pdf report automation
 img: assets/img/Project1.png
 importance: 1
 category: projects
-related_publications: false
 ---
 
 
