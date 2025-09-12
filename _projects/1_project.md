@@ -1,19 +1,18 @@
 ---
 layout: page
 title: Sustainability Benchmark Automation
-description: Full-stack Azure-based solution for ESG report automation
+description: Full-stack Azure-based solution for ESG pdf report automation
 img: assets/img/Project1.png
 importance: 1
 category: non-academic-projects
 related_publications: false
 ---
 
-### Sustainability Benchmark Automation | (Mar ’24)
 
 #### 🛠️ Tech Stack
 - **Frontend:** Streamlit (for interactive dashboard)  
 - **Backend:** Flask (Python)  
-- **Cloud Services:** Azure App Service, Azure Form Recognizer (Document Intelligence), Azure Search Index, Azure OpenAI GPT-4, Azure Cosmos DB
+- **AzureServices:** Azure App Service, Azure Form Recognizer (Document Intelligence), Azure Search Index, Azure OpenAI GPT-4, Azure Cosmos DBs
 ---
 
 #### 📌 Description
