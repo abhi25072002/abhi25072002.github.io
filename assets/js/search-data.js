@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+        },{id: "projects-sustainability-benchmark-automation",
+          title: 'Sustainability Benchmark Automation',
+          description: "Full-stack Azure-based solution for ESG report automation built.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-project-2",
