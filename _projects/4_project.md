@@ -4,7 +4,7 @@ title: Arbitrary-Precision Calculator
 description: A bc-like command-line calculator supporting arbitrary-precision arithmetics.
 img: assets/img/calculator.png
 importance: 1
-category: non-academic-projects
+category: projects
 ---
 
 #### 🛠️ Tech Stack

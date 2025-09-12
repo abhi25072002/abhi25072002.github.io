@@ -4,8 +4,7 @@ title: Paint – Shapes Editor
 description: C++ Paint application for drawing and manipulating shapes using OOP concepts and OpenGL.
 img: assets/img/Project3.png
 importance: 1
-category: non-academic-projects
-giscus_comments: true
+category: projects
 ---
 
 #### 🛠️ Tech Stack
