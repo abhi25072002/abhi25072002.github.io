@@ -109,6 +109,12 @@ disqus_shortname: al-folio # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
+  books:
+    output: false
+  news:
+    defaults:
+      layout: post
+    output: false
   projects:
     output: true
 
@@ -223,8 +229,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Dharmadhikari]
-  first_name: [Abhishek]
+  last_name: [Einstein]
+  first_name: [Albert, A.]
 
   style: apa
   locale: en
