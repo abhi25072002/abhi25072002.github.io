@@ -40,9 +40,9 @@ ninja.data = [{
           description: "Implementation of a user-level multithreading library supporting multiple mapping models in C.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-http-1-1-web-server-systems-programming",
-          title: 'HTTP/1.1 Web Server - Systems Programming',
-          description: "Implementation of a multithreaded HTTP/1.1-compliant server with request handling, logging, and configuration management.",
+            },},{id: "projects-http-1-1-web-server",
+          title: 'HTTP/1.1 Web Server',
+          description: "Implementation of a multithreaded HTTP/1.1-compliant server.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
             },},{id: "projects-arbitrary-precision-calculator",
