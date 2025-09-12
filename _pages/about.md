@@ -24,11 +24,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-
-
-Hi! I'm Abhsiehk.  
+Hi! I'm Abhishk.  
 
 I am currently pursuing my Master’s in Computer Science (MSCS) at Georgia Tech with a specialization in Machine Learning, while exploring the right balance between research and engineering, and learning how to use mathematics to make clear and accurate conclusions in machine learning.
 
@@ -36,10 +32,12 @@ I completed my Bachelor's in Computer Engineering with honors in Data Sciencefro
 
 My interests are in Machine Learning & Deep Learning, Multimodal Large Language Models, Systems for Machine Learning, Cloud Computing, and Full-stack Software Engineering.
 
-Previously, I worked as a Software Engineer at Wells Fargo, where I gained my first experience working on production-grade systems, developing and maintaining the Independent Price Verification tool, and taking part in full-stack development, SDLC processes, CI/CD pipelines, and Agile workflows. I was a Research Intern at MIDAS Lab, IIIT Delhi, where I created benchmark datasets and evaluated the reasoning capabilities of open-source large language models in physics and geometry with an Indian context. I also completed a Technology Summer Analyst Internship at Citibank India, where I helped migrate an in-house process automation tool UI. Earlier, I was part of the ISRO COEP Satellite Team (CSAT), working on satellite attitude determination and control algorithms.
+Previously, I worked as a Software Engineer at Wells Fargo, where I gained my first experience working on production-grade systems, developing and maintaining the Independent Price Verification tool, and taking part in full-stack development, SDLC processes, and Agile settings. I was a Research Intern at MIDAS Lab, IIIT Delhi, where I created benchmark datasets and evaluated the reasoning capabilities of open-source large language models in physics and geometry with an Indian context. I also completed a Technology Summer Analyst Internship at Citibank India, where I helped migrate an in-house process automation tool UI. Earlier, I was part of the ISRO COEP Satellite Team (CSAT), working on satellite attitude determination and control algorithms.
 
 I recently started hitting the gym for weight loss, and now it has kind of become a habit. I’ve already lost some weight, and it’s a really good feeling! In my free time, I used to love just watching cooking recipes, but now I actually have to prepare meals as well (no choice here in the United States). I also enjoy watching web series.
 
-📬 Connect with me here or drop me an email at ajd6@gatech.edu to discuss research, engineering challenges, or mathematical curiosities.  
+`I am actively seeking Summer 2026 Software Engineering internship opportunities.`
 
-**I'm Actively seeking Summer 2026 opportunities.**
+Drop me an email at `ajd6@gatech.edu` or `abhishekdharmadhikari25@gmail.com`, or connect with me through my social media profiles below.
+
+
