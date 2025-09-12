@@ -32,44 +32,29 @@ ninja.data = [{
           },
         },{id: "projects-sustainability-benchmark-automation",
           title: 'Sustainability Benchmark Automation',
-          description: "Full-stack Azure-based solution for ESG report automation",
+          description: "Full-stack Azure-based solution for ESG pdf report automation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-user-threads-operating-systems",
+          title: 'User-Threads - Operating Systems',
+          description: "Implementation of a user-level multithreading library supporting multiple mapping models in C.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "Netowkring porject",
+            },},{id: "projects-http-1-1-web-server-systems-programming",
+          title: 'HTTP/1.1 Web Server - Systems Programming',
+          description: "Implementation of a multithreaded HTTP/1.1-compliant server with request handling, logging, and configuration management.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-arbitrary-precision-calculator-data-structures-amp-algorithms",
+          title: 'Arbitrary-Precision Calculator - Data Structures &amp;amp; Algorithms',
+          description: "A bc-like command-line calculator supporting arbitrary-precision arithmetic and infix expression evaluation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-paint-shapes-editor-using-oops-and-opengl",
+          title: 'Paint – Shapes Editor Using OOPs and OpenGL',
+          description: "Interactive C++ Paint application for drawing and manipulating shapes using OOP concepts and OpenGL.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project.html";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project.html";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project.html";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
