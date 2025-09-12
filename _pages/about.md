@@ -32,6 +32,6 @@ My interests are in Machine Learning & Deep Learning, Multimodal Large Language 
 
 I recently started hitting the gym for weight loss, and now it has kind of become a habit. I’ve already lost some weight, and it’s a really good feeling! In my free time, I used to love just watching cooking recipes, but now I actually have to prepare meals as well (no choice here in the United States). I also enjoy watching web series.
 
-`I am actively seeking Summer 2026 Software Engineering internship opportunities!!!`
+`I am actively seeking Summer 2026 Software Engineering internship opportunities!`
 
 Drop me an email at `ajd6@gatech.edu` or `abhishekdharmadhikari25@gmail.com`, or connect with me through my social media profiles below.
