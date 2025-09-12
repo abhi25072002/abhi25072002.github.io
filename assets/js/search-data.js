@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "projects-sustainability-benchmark-automation",
           title: 'Sustainability Benchmark Automation',
-          description: "Full-stack Azure-based solution for ESG report automation built.",
+          description: "Full-stack Azure-based solution for ESG report automation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-project-2",
