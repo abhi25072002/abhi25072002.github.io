@@ -1,10 +1,10 @@
 ---
 layout: page
-title: HTTP/1.1 Web Server - Systems Programming
-description: Implementation of a multithreaded HTTP/1.1-compliant server with request handling, logging, and configuration management.
+title: HTTP/1.1 Web Server
+description: Implementation of a multithreaded HTTP/1.1-compliant server.
 img: assets/img/httpserver_response.png
 importance: 1
-category: non-academic-projects
+category: projects
 ---
 
 #### 🛠️ Tech Stack

@@ -4,7 +4,7 @@ title: Sustainability Benchmark Automation
 description: Full-stack Azure-based solution for ESG pdf report automation
 img: assets/img/Project1.png
 importance: 1
-category: non-academic-projects
+category: projects
 related_publications: false
 ---
 
@@ -12,7 +12,7 @@ related_publications: false
 #### 🛠️ Tech Stack
 - **Frontend:** Streamlit (for interactive dashboard)  
 - **Backend:** Flask (Python)  
-- **Azure Services:** App Service, Form Recognizer, Azure Search Index, Azure SDKs
+- **Tools:** Azure SDKs and different services
 ---
 
 #### 📌 Description

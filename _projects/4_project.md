@@ -9,7 +9,7 @@ category: projects
 
 #### 🛠️ Tech Stack
 - **Languages:** C 
-- **Concepts:** Data Structures (Doubly Linked List, Stack), Finite State Machine (FSM), Infix Expression Parsing and Evaluation  
+- **Concepts:** `Data Structures`, `Finite State Machine`, `expression evaluation`  
 ---
 
 #### 📌 Description
