@@ -14,9 +14,9 @@
       "url": "https://www.wellsfargo.com/",
       "startDate": "2023-08",
       "endDate": "2025-08",
-      "summary": "Software Engineer in Finance Technology (Corporate Treasury - Valuation & Product Control) Line of Business",
+      "summary": "Software Engineer in Finance Technology (Corporate Treasury - Valuation & Product Control) LoB",
       "highlights": [
-        "Led the development and maintenance of the IPV Application in India time, supporting accurate pricing and valuation of financial portfolios worth $200B+, using Angular, Django, Python(for ETL), Autosys for cron job scheduling, and Liquibase for database change management.",
+        "Led the development and maintenance of the IPV Application in India time, supporting accurate pricing and valuation of financial portfolios worth $200B+, using Angular, Django, Python (ETL), Autosys for cron job scheduling, and Liquibase for database change management.",
         "Designed and implemented a Python-based ETL pipeline processing 30M+ records daily from 130+ sources (databases, APIs, FTP servers, file reads).",
         "Developed and scheduled 50+ daily/monthly ETL jobs using Autosys, streamlining ingestion and processing into the IPV Tool.",
         "Automated generation and validation of 50+ commodity control sheets using Python, eliminating 250,000+ formula operations, saving 8 hours of effort and reducing processing time by 99.6%.",
@@ -34,7 +34,7 @@
       "highlights": [
         "Evaluated the reasoning capabilities of 5 Multimodal Large Language Models in the geometry domain.",
         "Led a team of 3 to create GEOVQA, a high-quality Indian-context geometry benchmark dataset with 4K images.",
-        "Devised the Mixture of Refinement Agents (MoRA) framework to iteratively reduce reasoning errors in physics tasks, improving accuracy by up to 16% on SciEval and MMLU for open-source LLMs(LLaMA-3 and Gemma-2)."
+        "Devised the Mixture of Refinement Agents (MoRA) framework to iteratively reduce reasoning errors in physics tasks, improving accuracy by up to 16% on SciEval and MMLU for open-source LLMs (LLaMA-3 and Gemma-2)."
       ]
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "name": "ISRO COEP Satellite Team Initiative (CSAT)",
-      "position": "Attitude Determination and Control Subsystem(ADCS) Contributor",
+      "position": "Attitude Determination and Control Subsystem (ADCS) Contributor",
       "url": "https://www.linkedin.com/company/coep-s-satellite-initiative/",
       "startDate": "2020-01",
       "endDate": "2022-02",
@@ -213,8 +213,7 @@
       "name": "Sustainability Benchmark Automation",
       "summary": "",
       "highlights": [
-        "Full-stack web solution for automating ESG PDF report analysis, deployed on Azure App Service.",
-        "Led a team of 4 to design and deploy a web solution during a company-wide hackathon, automating Environmental, Social, and Governance (ESG) PDF report analysis.",
+        "Led a team of 4 to design and deploy a web solution using Azure App Service during a company-wide hackathon, automating Environmental, Social, and Governance (ESG) PDF report analysis.",
         "Engineered a RAG pipeline integrating Azure Form Recognizer for PDF-to-text extraction, Azure Search Index for context retrieval, and Azure OpenAI (GPT-4) for Q&A on 100+ page ESG documents."
       ],
       "technologies": ["Python", "Flask", "Streamlit", "Azure SDKs"],
@@ -233,7 +232,6 @@
       "technologies": ["Python", "Vision Transformers", "Deep Learning"],
   "startDate": "2023-01",
     "endDate": "2023-05",
-
   "url": ""
     },
     {
@@ -247,8 +245,7 @@
       "technologies": ["C", "Systems Programming", "Multithreading", "Coroutines", "Bash"],
   "startDate": "2022-03",
    "endDate": "2022-05",
-
-  "url": "https://github.com/abhi25072002/user-threads-os"
+  "url": "https://github.com/abhi25072002/threadHive"
     },
     {
       "name": "HTTP Server - Computer Networks",
@@ -261,35 +258,9 @@
       "technologies": ["Python", "Socket Programming", "threading library", "MDN Docs"],
   "startDate": "2021-09",
       "endDate": "2021-11",
-  "url": "https://github.com/abhi25072002/http-server"
+  "url": "https://github.com/abhi25072002/HTTPHaven"
     },
     {
-      "name": "Paint Application - Object Oriented Programming (C++)",
-      "summary": "",
-      "highlights": [
-        "Developed using pillars of Object Oriented Programming in C++ with OpenGL for graphics and GLUT for event handling.",
-        "Implemented drawing shapes using algorithms, undo/redo, erase shapes, styling (area filling, border coloring, brush)."
-      ],
-      "technologies": ["C++", "OpenGL", "GLUT", "OOPs"],
-      "url": "",
-      "startDate": "2021-03",
-      "endDate": "2021-04"
-    },
-    {
-      "name": "Arbitrary-Precision Calculator (C)",
-      "summary": "",
-      "highlights": [
-        "Implemented a bc command-like tool in C capable of handling very large numbers, using custom user-defined data structures.",
-        "Created a struct 'number' storing values as a doubly linked list, with sign and precision fields for arbitrary-precision arithmetic.",
-        "Used a stack of numbers for infix expression evaluation and a finite state machine (FSM) for parsing and computation.",
-        "Supported operations: addition, multiplication, subtraction, sdivision, exponentiation, negatives, and infix expression evaluation."
-      ],
-      "technologies": ["C", "Finite State Machine", "makefile"],
-      "url": "",
-      "startDate": "2020-09",
-      "endDate": "2020-10"
-    },
-  {
   "name": "BankTrack - Banking Application",
   "highlights": [
     "Full-stack banking application simulating account management, secure transactions, and admin operations in a 1-sprint Agile workflow.s",
@@ -298,7 +269,33 @@
   ],
   "technologies": ["React", "Spring Boot", "PostgreSQL", "Google Guava Cache (OTP)"],
   "url": "",
-  "startDate": "2023-08",
-  "endDate": "2023-08"
-}]
+  "startDate": "2021-09",
+  "endDate": "2021-09"
+},
+    {
+      "name": "Paint Application - Object Oriented Programming",
+      "summary": "",
+      "highlights": [
+        "Developed using pillars of Object Oriented Programming in C++ with OpenGL for graphics and GLUT for event handling.",
+        "Implemented drawing shapes using algorithms, undo/redo, erase shapes, styling (area filling, border coloring, brush)."
+      ],
+      "technologies": ["C++", "OpenGL", "GLUT", "OOPs"],
+      "url": "http://github.com/abhi25072002/Paint_OOPS",
+      "startDate": "2021-03",
+      "endDate": "2021-04"
+    },
+    {
+      "name": "Arbitrary-Precision Calculator - Data Structures & Algorithms",
+      "summary": "",
+      "highlights": [
+        "Implemented a bc command-like tool in C capable of handling very large numbers, using custom user-defined data structures.",
+        "Created a struct 'number' storing values as a doubly linked list, with sign and precision fields for arbitrary-precision arithmetic.",
+        "Used a stack of numbers for infix expression evaluation and a finite state machine (FSM) for parsing and computation.",
+        "Supported operations: addition, multiplication, subtraction, division, exponentiation, negatives, and infix expression evaluation."
+      ],
+      "technologies": ["C", "Finite State Machine", "makefile"],
+      "url": "https://github.com/abhi25072002/Binary_Calculator",
+      "startDate": "2020-09",
+      "endDate": "2020-10"
+    }]
 }
