@@ -35,8 +35,8 @@ ninja.data = [{
           description: "Full-stack Azure-based solution for ESG pdf report automation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-user-threads-operating-systems",
-          title: 'User-Threads - Operating Systems',
+            },},{id: "projects-user-threads",
+          title: 'User-Threads',
           description: "Implementation of a user-level multithreading library supporting multiple mapping models in C.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
@@ -45,14 +45,14 @@ ninja.data = [{
           description: "Implementation of a multithreaded HTTP/1.1-compliant server with request handling, logging, and configuration management.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
-            },},{id: "projects-arbitrary-precision-calculator-data-structures-amp-algorithms",
-          title: 'Arbitrary-Precision Calculator - Data Structures &amp;amp; Algorithms',
-          description: "A bc-like command-line calculator supporting arbitrary-precision arithmetic and infix expression evaluation.",
+            },},{id: "projects-arbitrary-precision-calculator",
+          title: 'Arbitrary-Precision Calculator',
+          description: "A bc-like command-line calculator supporting arbitrary-precision arithmetics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
-            },},{id: "projects-paint-shapes-editor-using-oops-and-opengl",
-          title: 'Paint – Shapes Editor Using OOPs and OpenGL',
-          description: "Interactive C++ Paint application for drawing and manipulating shapes using OOP concepts and OpenGL.",
+            },},{id: "projects-paint-shapes-editor",
+          title: 'Paint – Shapes Editor',
+          description: "C++ Paint application for drawing and manipulating shapes using OOP concepts and OpenGL.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
             },},{id: "projects-project-9",
