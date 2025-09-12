@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Sustainability Benchmark Automation
-description: Full-stack Azure-based solution for ESG report automation built.
+description: Full-stack Azure-based solution for ESG report automation
 img: assets/img/Project1.png
 importance: 1
-category: non-academic projects
+category: non-academic-projects
 related_publications: false
 ---
 
