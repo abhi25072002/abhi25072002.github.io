@@ -2,8 +2,8 @@
 layout: page
 title: HTTP/1.1 Web Server
 description: Implementation of a multithreaded HTTP/1.1-compliant server.
-img: assets/img/httpserver_response.png
-importance: 1
+img: assets/img/httpserver_response.jpeg
+importance: 4
 category: projects
 ---
 

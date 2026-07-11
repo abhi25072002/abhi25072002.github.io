@@ -3,7 +3,7 @@ layout: page
 title: Arbitrary-Precision Calculator
 description: A bc-like command-line calculator supporting arbitrary-precision arithmetics.
 img: assets/img/calculator.png
-importance: 1
+importance: 6
 category: projects
 ---
 

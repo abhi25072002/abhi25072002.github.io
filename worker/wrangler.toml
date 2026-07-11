@@ -1,0 +1,6 @@
+name = "abhishek-portfolio-agent"
+main = "src/index.js"
+compatibility_date = "2026-07-01"
+
+# Secrets (set once, never committed):
+#   npx wrangler secret put GROQ_API_KEY

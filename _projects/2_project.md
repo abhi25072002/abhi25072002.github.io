@@ -3,7 +3,7 @@ layout: page
 title: User-Threads
 description: Implementation of a user-level multithreading library supporting multiple mapping models in C.
 img: assets/img/threading.png
-importance: 1
+importance: 3
 category: projects
 ---
 
