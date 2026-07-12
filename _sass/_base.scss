@@ -583,6 +583,48 @@ footer.sticky-bottom {
   }
 }
 
+h1,
+h2,
+h3,
+.card-title {
+  font-family: Charter, Georgia, "Times New Roman", serif;
+}
+
+h1.post-title {
+  font-family: "Playfair Display", Georgia, serif;
+  letter-spacing: 0.02em;
+}
+
+// News table must follow the theme text color (Bootstrap hardcodes its own)
+.news table.table {
+  color: var(--global-text-color);
+
+  td,
+  th {
+    color: var(--global-text-color);
+  }
+
+  th {
+    color: var(--global-text-color-light);
+  }
+}
+
+// AI gradient shimmer on the "talk to my AI" nav link
+@keyframes ai-shimmer {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.navbar .nav-link[href$="/ai/"]:hover {
+  background: linear-gradient(90deg, #0076df, #7c3aed, #db2777, #0076df);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: ai-shimmer 2.5s linear infinite;
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;

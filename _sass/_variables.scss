@@ -27,6 +27,12 @@ $yellow-color: #efcc00 !default;
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark: #1c1c1d;
+$clay-color: #d97757 !default; // Claude clay accent
+$clay-color-dark: #b45309 !default;
+$paper-color: #faf9f5 !default; // Claude warm paper
+$paper-dark-color: #262624 !default; // Claude dark surface
+$paper-card-dark-color: #30302e !default;
+$ink-color: #3d3929 !default; // Claude warm ink
 $grey-900: #212529;
 
 $white-color: #ffffff !default;
@@ -34,8 +40,8 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($blue-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$code-bg-color-light: rgba($blue-color, 0.06);
+$code-bg-color-dark: #33322f !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";

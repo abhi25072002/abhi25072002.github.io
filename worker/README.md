@@ -26,7 +26,7 @@ npx wrangler secret put GROQ_API_KEY   # free key from console.groq.com
 npx wrangler deploy
 ```
 
-The deploy prints your URL, e.g. `https://abhishek-portfolio-agent.<subdomain>.workers.dev`.
+The deploy prints your URL, e.g. `https://abhishek-portfolio-agent.abhishek-dharmadhikari.workers.dev`.
 Then set that URL as `WORKER_URL` in `_pages/ai.md` so the chat widget points at it.
 
 ## Add the MCP server to your AI tools
@@ -38,7 +38,7 @@ Then set that URL as `WORKER_URL` in `_pages/ai.md` so the chat widget points at
   "mcpServers": {
     "abhishek": {
       "command": "npx",
-      "args": ["mcp-remote", "https://abhishek-portfolio-agent.<subdomain>.workers.dev/mcp"]
+      "args": ["mcp-remote", "https://abhishek-portfolio-agent.abhishek-dharmadhikari.workers.dev/mcp"]
     }
   }
 }
@@ -48,7 +48,7 @@ Then set that URL as `WORKER_URL` in `_pages/ai.md` so the chat widget points at
 URL directly:
 
 ```json
-{ "mcpServers": { "abhishek": { "url": "https://abhishek-portfolio-agent.<subdomain>.workers.dev/mcp" } } }
+{ "mcpServers": { "abhishek": { "url": "https://abhishek-portfolio-agent.abhishek-dharmadhikari.workers.dev/mcp" } } }
 ```
 
 ## Guardrails

@@ -154,7 +154,7 @@ const TOOLS = [
   },
   {
     name: "get_skills",
-    description: "Abhishek's technical skills: languages, databases, frameworks, developer tools.",
+    description: "Abhishek's technical skills (languages, databases, frameworks, developer tools) plus grounded evidence of where each skill was actually used (which job, project, or research).",
     inputSchema: { type: "object", properties: {}, additionalProperties: false },
   },
   {
@@ -192,7 +192,7 @@ async function callTool(name, args) {
       return { projects };
     }
     case "get_skills":
-      return { skills: p.skills };
+      return { skills: p.skills, where_each_skill_was_used: p.skills_evidence };
     case "get_education":
       return { education: p.education, awards: p.awards };
     case "get_publications":

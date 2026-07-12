@@ -11,10 +11,10 @@ profile:
 # selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-# announcements:
-#   enabled: true # includes a list of news items
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-#   limit: 5 # leave blank to include all the news in the `_news` folder
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 # latest_posts:
 #   enabled: true
@@ -22,24 +22,62 @@ social: true # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I’m Abhishek Dharmadhikari, a Master’s student in Computer Science at Georgia Tech (GPA 4.0/4.0), specializing in Machine Learning.
+`Actively seeking Full-Time New Grad SWE roles, starting May 2027!`
 
-This summer, I’m working as an ML/Data Engineering Intern at Intuit on the Mailchimp Core Data Products team in Atlanta, building large-scale data pipelines with PySpark, Airflow, and BigQuery on GCP, and designing an agentic, MCP-server-driven system to automate CI/CD validation.
+Hi, I'm Abhishek, an MS CS student at Georgia Tech (GPA 4.0/4.0, Machine Learning specialization). This summer I'm an ML/Data Engineering Intern at Intuit, building large-scale data pipelines and agentic MCP-driven automation for Mailchimp's data platform. At GT, I also research RPKI & network security at the Internet Intelligence Lab and TA for Data & Visual Analytics (CSE 6242).
 
-At Georgia Tech, I’m also a Graduate Student Researcher at the Internet Intelligence Lab, working on RPKI and network security, and a Graduate Teaching Assistant for Data & Visual Analytics (CSE 6242), supporting 1500+ students globally.
+Previously, I was a Software Engineer at Wells Fargo, where I led development of a pricing platform supporting $200B in portfolios, and a Research Intern at MIDAS Lab, IIIT Delhi, working on multimodal LLM reasoning (AAAI'26 workshop). I graduated Rank 1 (Institute Gold Medalist) in Computer Engineering from COEP, Pune.
 
-Prior to my master’s, I worked as a Software Engineer at Wells Fargo, where I led the development of the Independent Price Verification (IPV) platform — full-stack development, large-scale ETL pipelines, and production reliability work on a regulated financial system supporting $200B in portfolios.
+<style>
+  .skill-chips { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0.75rem 0 1rem; }
+  .skill-chip {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    font-size: 0.82rem; padding: 0.22rem 0.6rem;
+    border: 1px solid var(--global-divider-color); border-radius: 999px;
+    color: var(--global-text-color); white-space: nowrap;
+  }
+  .skill-chip i { font-size: 1rem; }
+</style>
 
-I have also gained research experience as a Research Intern at the MIDAS Lab, IIIT Delhi, where I built Indian-context benchmark datasets and devised an agentic framework for improving LLM reasoning (accepted at an AAAI’26 workshop). Earlier, during my Summer Internship at Citi, I supported the migration of an internal process automation tool’s UI.
+**Day to day:**
 
-I completed my Bachelor’s in Computer Engineering (Honors in Data Science) from the College of Engineering, Pune (COEP), where I graduated Rank 1 with a CGPA of 9.81/10 and was awarded both the Department and Institute Gold Medals among a cohort of 780 students.
+<div class="skill-chips">
+  <span class="skill-chip"><i class="devicon-python-plain colored"></i>Python</span>
+  <span class="skill-chip"><i class="devicon-cplusplus-plain colored"></i>C/C++</span>
+  <span class="skill-chip"><i class="devicon-django-plain colored"></i>Django</span>
+  <span class="skill-chip"><i class="devicon-fastapi-plain colored"></i>FastAPI</span>
+  <span class="skill-chip"><i class="devicon-react-original colored"></i>React</span>
+  <span class="skill-chip"><i class="devicon-angularjs-plain colored"></i>Angular</span>
+  <span class="skill-chip"><i class="devicon-azuresqldatabase-plain colored"></i>SQL</span>
+  <span class="skill-chip"><i class="devicon-apachespark-original colored"></i>PySpark</span>
+  <span class="skill-chip"><i class="devicon-apacheairflow-plain colored"></i>Airflow</span>
+  <span class="skill-chip"><i class="devicon-pytorch-original colored"></i>PyTorch</span>
+  <span class="skill-chip">🦜🔗 LangChain/LangGraph</span>
+  <span class="skill-chip"><span style="color: #D97757; font-weight: 700;">✳</span>&nbsp;AI Agents · MCP</span>
+  <span class="skill-chip"><i class="devicon-googlecloud-plain colored"></i>GCP</span>
+  <span class="skill-chip"><i class="devicon-azure-plain colored"></i>Azure</span>
+  <span class="skill-chip"><i class="devicon-terraform-plain colored"></i>Terraform</span>
+  <span class="skill-chip"><i class="devicon-ansible-plain colored"></i>Ansible</span>
+  <span class="skill-chip"><i class="devicon-docker-plain colored"></i>Docker</span>
+  <span class="skill-chip"><i class="devicon-kubernetes-plain colored"></i>Kubernetes</span>
+  <span class="skill-chip"><i class="devicon-postman-plain colored"></i>Postman</span>
+</div>
 
-My interests are in Machine Learning & Deep Learning, Multimodal Large Language Models, Agentic AI Systems, and Full-stack Software Engineering.
+<style>
+  .api-terminal {
+    display: block; background: #1f1e1d; border: 1px solid #3a3835; border-radius: 10px;
+    padding: 0.8rem 1rem; margin: 1rem 0; font-family: "SF Mono", ui-monospace, Menlo, monospace;
+    font-size: 0.85rem; line-height: 1.7; color: #e8e6e3; text-decoration: none;
+    transition: border-color 0.25s ease;
+  }
+  .api-terminal:hover { border-color: #D97757; text-decoration: none; color: #e8e6e3; }
+  .api-terminal .t-star { color: #D97757; font-weight: 700; margin-right: 0.4rem; }
+  .api-terminal .t-head { color: #e8e6e3; font-weight: 600; }
+  .api-terminal .t-line { color: #b8b5b0; }
+  .api-terminal .t-prompt { color: #7bb972; margin-right: 0.4rem; }
+  .api-terminal .t-cmd { color: #8ab4f8; }
+</style>
 
-<!-- I recently started hitting the gym for weight loss, and now it has kind of become a habit. I’ve already lost some weight, and it’s a really good feeling! In my free time, I used to love just watching cooking recipes, but now I actually have to prepare meals as well (no choice here in the United States). I also enjoy watching web series. -->
-
-`I am actively seeking Full-Time New Grad Software Engineering roles (starting 2027) as well as Summer 2027 SWE internship opportunities!`
-
-🤖 **This site has an API.** [Chat with my portfolio, or add me to your AI assistant via MCP →](/ai/)
+<a class="api-terminal" href="/ai/"><span class="t-star">✳</span><span class="t-head">this site has an API</span><br><span class="t-prompt">❯</span><span class="t-cmd">/chat</span><span class="t-line"> · ask my portfolio anything</span><br><span class="t-prompt">❯</span><span class="t-cmd">/mcp</span><span class="t-line"> · add me to Claude, Cursor, or VS Code</span></a>
 
 Drop me an email at `ajd6@gatech.edu`, or connect with me through my social media profiles below.
