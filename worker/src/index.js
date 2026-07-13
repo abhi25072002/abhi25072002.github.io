@@ -28,7 +28,10 @@ async function getProfile() {
   if (profileCache.data && Date.now() - profileCache.fetchedAt < ONE_HOUR) {
     return profileCache.data;
   }
-  const res = await fetch(PROFILE_URL, { cf: { cacheTtl: 3600 } });
+  // v=2 busts a stale edge entry; never cache non-200s or a 404 would stick for an hour
+  const res = await fetch(PROFILE_URL + "?v=2", {
+    cf: { cacheTtlByStatus: { "200-299": 3600, "400-599": -1 } },
+  });
   if (!res.ok) throw new Error(`profile fetch failed: ${res.status}`);
   profileCache = { data: await res.json(), fetchedAt: Date.now() };
   return profileCache.data;
@@ -273,7 +276,11 @@ export default {
       return new Response(null, { status: 204, headers: cors });
     }
     if (url.pathname === "/chat" && request.method === "POST") {
-      return handleChat(request, env, cors);
+      try {
+        return await handleChat(request, env, cors);
+      } catch (err) {
+        return json({ error: `Agent temporarily unavailable: ${err.message}` }, 503, cors);
+      }
     }
     if (url.pathname === "/mcp") {
       return handleMcp(request, cors);
