@@ -48,12 +48,22 @@
         body: JSON.stringify({ messages: history }),
       });
       thinking.remove();
-      if (!res.ok) throw new Error("bad status " + res.status);
+      if (!res.ok) {
+        let msg = "The chat backend isn't reachable right now. You can still browse my CV and projects, or email ajd6@gatech.edu.";
+        try {
+          const err = await res.json();
+          if (err.error) msg = err.error;
+        } catch {}
+        history.pop();
+        add("notice", msg);
+        return;
+      }
       const data = await res.json();
       add("bot", data.reply);
       history.push({ role: "assistant", content: data.reply });
     } catch (e) {
       thinking.remove();
+      history.pop();
       add("notice", "The chat backend isn't reachable right now. You can still browse my CV and projects, or email ajd6@gatech.edu.");
     } finally {
       send.disabled = false;
