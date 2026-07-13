@@ -15,8 +15,20 @@ const SITE_ORIGINS = [
   "http://localhost:4000",
 ];
 const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
-const GROQ_MODEL = "llama-3.3-70b-versatile";
-const GROQ_FALLBACK_MODEL = "llama-3.1-8b-instant";
+const GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions";
+
+// Tried in order; a provider is skipped on rate limit (429). Gemini joins the
+// chain only when GEMINI_API_KEY is set (free key: aistudio.google.com/apikey).
+function providers(env) {
+  const list = [
+    { url: GROQ_URL, key: env.GROQ_API_KEY, model: "llama-3.3-70b-versatile" },
+    { url: GROQ_URL, key: env.GROQ_API_KEY, model: "llama-3.1-8b-instant" },
+  ];
+  if (env.GEMINI_API_KEY) {
+    list.push({ url: GEMINI_URL, key: env.GEMINI_API_KEY, model: "gemini-2.5-flash" });
+  }
+  return list;
+}
 const MAX_MESSAGES = 12;
 const MAX_CHARS = 2000;
 
@@ -93,14 +105,14 @@ function systemPrompt(profile) {
   ].join("\n");
 }
 
-function callGroq(env, model, messages) {
-  return fetch(GROQ_URL, {
+function callLLM(provider, messages) {
+  return fetch(provider.url, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${env.GROQ_API_KEY}`,
+      Authorization: `Bearer ${provider.key}`,
     },
-    body: JSON.stringify({ model, max_tokens: 500, temperature: 0.3, messages }),
+    body: JSON.stringify({ model: provider.model, max_tokens: 500, temperature: 0.3, messages }),
   });
 }
 
@@ -126,25 +138,24 @@ async function handleChat(request, env, cors) {
   const profile = await getProfile();
   const chatMessages = [{ role: "system", content: systemPrompt(profile) }, ...messages];
 
-  // Primary model first; on a free-tier rate limit (429), fall back to the
-  // smaller instant model, which has its own separate rate bucket.
-  let groqRes = await callGroq(env, GROQ_MODEL, chatMessages);
-  if (groqRes.status === 429) {
-    groqRes = await callGroq(env, GROQ_FALLBACK_MODEL, chatMessages);
+  // Walk the free-tier provider chain; each has its own separate rate bucket.
+  let res = null;
+  for (const provider of providers(env)) {
+    res = await callLLM(provider, chatMessages);
+    if (res.ok) {
+      const data = await res.json();
+      const reply = data.choices?.[0]?.message?.content ?? "Sorry, I couldn't generate a reply.";
+      return json({ reply }, 200, cors);
+    }
   }
-  if (groqRes.status === 429) {
+  if (res && res.status === 429) {
     return json(
       { error: "I'm getting a lot of questions right now (free-tier limit). Please wait ~30 seconds and ask again." },
       429,
       cors
     );
   }
-  if (!groqRes.ok) {
-    return json({ error: "The model is unavailable right now. Please try again shortly." }, 502, cors);
-  }
-  const data = await groqRes.json();
-  const reply = data.choices?.[0]?.message?.content ?? "Sorry, I couldn't generate a reply.";
-  return json({ reply }, 200, cors);
+  return json({ error: "The model is unavailable right now. Please try again shortly." }, 502, cors);
 }
 
 // ---------------------------------------------------------------- /mcp
