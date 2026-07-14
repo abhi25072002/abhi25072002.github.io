@@ -22,11 +22,12 @@ const GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat
 function providers(env) {
   const list = [
     { url: GROQ_URL, key: env.GROQ_API_KEY, model: "llama-3.3-70b-versatile" },
-    { url: GROQ_URL, key: env.GROQ_API_KEY, model: "llama-3.1-8b-instant" },
   ];
   if (env.GEMINI_API_KEY) {
-    list.push({ url: GEMINI_URL, key: env.GEMINI_API_KEY, model: "gemini-2.5-flash" });
+    list.push({ url: GEMINI_URL, key: env.GEMINI_API_KEY, model: "gemini-3.5-flash" });
   }
+  // Last resort: tiny 6K TPM bucket, barely fits one request
+  list.push({ url: GROQ_URL, key: env.GROQ_API_KEY, model: "llama-3.1-8b-instant" });
   return list;
 }
 const MAX_MESSAGES = 12;
@@ -147,6 +148,7 @@ async function handleChat(request, env, cors) {
       const reply = data.choices?.[0]?.message?.content ?? "Sorry, I couldn't generate a reply.";
       return json({ reply }, 200, cors);
     }
+    console.log(`provider ${provider.model} failed: ${res.status} ${(await res.text()).replace(/\s+/g, " ").slice(0, 300)}`);
   }
   if (res && res.status === 429) {
     return json(
