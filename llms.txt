@@ -45,7 +45,16 @@
 ## Education
 
 - Master of Science in Computer Science (MSCS), Georgia Institute of Technology (2025-08 to 2027-05), GPA: 4.0/4.0
-- Bachelor of Technology (B.Tech), Honors in Data Science, COEP Technological University (Formerly College of Engineering Pune) (2019-08 to 2023-05), GPA: CGPA 9.81/10 (Honors GPA 9.75/10) - Rank 1, Valedictorian
+  - note: Perfect 4.0/4.0 GPA; grade A in every completed course.
+  - completed fall 2025: Machine Learning (CS 7641): A, Natural Language (CS 7650): A, Special Problems - RPKI & BGP Security (CS 8903): A, Data & Visual Analytics (CSE 6242): A
+  - in progress spring 2026: Computer Networks (CS 6250), Deep Learning (CS 7643), Large Language Models (CS 8803), High Performance Computing (CSE 6220)
+- Bachelor of Technology (B.Tech), Honors in Data Science, COEP Technological University (Formerly College of Engineering Pune) (2019-08 to 2023-05), GPA: CGPA 9.81/10 (Honors GPA 9.75/10) - Rank 1 of 164, Valedictorian
+  - note: Graded on a 10-point scale (AA = 10 highest, AB = 9, BB = 8). Topper of the batch: highest CGPA (9.81) among 164 students. Achieved a perfect 10.0 SGPA in 3 of 8 semesters.
+  - sgpa progression: 9.62, 10.0, 9.91, 10.0, 9.76, 9.57, 9.72, 10.0
+  - perfect 10 grade AA courses: Linear Algebra, Univariate Calculus, Ordinary Differential Equations & Multivariate Calculus, Vector Calculus & PDE, Probability and Statistics for Engineers, Programming for Problem Solving, Data Structures and Algorithms I, Data Structures and Algorithms II, Design and Analysis of Algorithms, Discrete Structures and Graph Theory, Theory of Computation, Digital Logic Design, Principles of Programming Languages, Computer Organization, Operating Systems, Computer Networks, Database Management Systems, Microprocessor Techniques, Compiler Construction, System Administration, Artificial Intelligence, Deep Learning, Reinforcement Learning, Making Sense of Data, Cloud and Big Data, Cryptography and Network Security
+  - grade AB courses: Data Science, Big Data Analytics, DevOps, Web Systems and Technologies, Finance for Engineers, Innovation and Creativity
+  - honors data science electives: Making Sense of Data (AA), Deep Learning (AA), Reinforcement Learning (AA), Cloud and Big Data (AA), Data Science (AB), Big Data Analytics (AB), DevOps (AB), Web Systems and Technologies (AB)
+  - final year thesis: Weed Detection using Vision Transformers (8-credit project, grade AA)
 
 ## Projects
 

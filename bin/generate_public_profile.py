@@ -29,6 +29,9 @@ BLOCKED_PATTERNS = [
     r"abhishekdharmadhikari25@gmail",    # personal email
     r"abhigatechusa@gmail",              # personal email
     r"tesla",                             # not announced yet
+    r"111903007",                         # COEP registration code (from transcript)
+    r"25/07/2002",                        # date of birth (from transcript)
+    r"\+91-20-\d{8}",                    # COEP institutional phone (from transcript)
 ]
 
 AVAILABILITY = (
@@ -130,6 +133,13 @@ def build_llms_txt(p):
     lines += ["## Education", ""]
     for e in p["education"]:
         lines.append(f"- {e['studyType']}, {e['institution']} ({e['startDate']} to {e['endDate']}), GPA: {e['score']}")
+        cg = e.get("coursework_grades")
+        if cg:
+            for k, v in cg.items():
+                if isinstance(v, list):
+                    lines.append(f"  - {k.replace('_', ' ')}: {', '.join(v)}")
+                else:
+                    lines.append(f"  - {k.replace('_', ' ')}: {v}")
     lines += ["", "## Projects", ""]
     for pr in p["projects"]:
         tech = ", ".join(pr.get("technologies", []))
