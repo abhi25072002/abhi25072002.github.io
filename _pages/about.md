@@ -22,11 +22,29 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-`Actively seeking Full-Time New Grad SWE roles, starting May 2027!`
+<style>
+  .seeking-pill {
+    display: inline-flex; align-items: center; gap: 0.45rem;
+    font-size: 0.8rem; font-weight: 600; letter-spacing: 0.01em;
+    padding: 0.28rem 0.8rem; border-radius: 999px; margin-bottom: 0.9rem;
+    color: var(--global-theme-color);
+    border: 1px solid var(--global-theme-color);
+  }
+  .seeking-pill .dot {
+    width: 0.5rem; height: 0.5rem; border-radius: 50%;
+    background: #2da44e; flex: none;
+    animation: seeking-pulse 2s ease-in-out infinite;
+  }
+  @keyframes seeking-pulse { 50% { opacity: 0.35; } }
+</style>
 
-Hi, I'm Abhishek, an MS CS student at Georgia Tech (GPA 4.0/4.0, Machine Learning specialization). This summer I'm an ML/Data Engineering Intern at Intuit, building large-scale data pipelines and agentic MCP-driven automation for Mailchimp's data platform. At GT, I also research RPKI & network security at the Internet Intelligence Lab and TA for Data & Visual Analytics (CSE 6242).
+<span class="seeking-pill"><span class="dot"></span>Seeking Full-Time New Grad SWE roles · May 2027</span>
 
-Previously, I was a Software Engineer at Wells Fargo, where I led development of a pricing platform supporting $200B in portfolios, and a Research Intern at MIDAS Lab, IIIT Delhi, working on multimodal LLM reasoning (AAAI'26 workshop). I graduated Rank 1 (Institute Gold Medalist) in Computer Engineering from COEP, Pune.
+Hi, I'm Abhishek. I'm an MS CS student at Georgia Tech, specializing in Machine Learning with a 4.0 GPA. This summer, I'm working at Intuit as an ML/Data Engineering intern, building data pipelines and agentic MCP-driven automation for Mailchimp's data platform.
+
+On campus, I got the opportunity to work on RPKI and BGP security pipelines at the Internet Intelligence Lab, and I serve as a Graduate Teaching Assistant for Data & Visual Analytics (CSE 6242).
+
+Before grad school, I was a Software Engineer at Wells Fargo, where I built pricing systems and gained hands-on experience in the finance domain. I have also worked on multimodal LLM research at IIIT Delhi's MIDAS Lab (AAAI'26 workshop paper), and I graduated first in my class in Computer Engineering at COEP Pune, as the Institute Gold Medalist.
 
 <style>
   .skill-chips { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0.75rem 0 1rem; }
@@ -80,4 +98,4 @@ Previously, I was a Software Engineer at Wells Fargo, where I led development of
 
 <a class="api-terminal" href="/ai/"><span class="t-star">✳</span><span class="t-head">this site has an API</span><br><span class="t-prompt">❯</span><span class="t-cmd">/chat</span><span class="t-line"> · ask my portfolio anything</span><br><span class="t-prompt">❯</span><span class="t-cmd">/mcp</span><span class="t-line"> · add me to Claude, Cursor, or VS Code</span></a>
 
-Drop me an email at `ajd6@gatech.edu`, or connect with me through my social media profiles below.
+Reach me at `ajd6@gatech.edu`, or through the links below.
