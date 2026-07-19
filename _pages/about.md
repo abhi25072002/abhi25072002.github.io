@@ -40,11 +40,11 @@ announcements:
 
 <span class="seeking-pill"><span class="dot"></span>Seeking Full-Time New Grad SWE roles · May 2027</span>
 
-Hi, I'm Abhishek. I'm an MS CS student at Georgia Tech, specializing in Machine Learning with a 4.0 GPA. This summer, I'm working at Intuit as an ML/Data Engineering intern, building data pipelines and agentic MCP-driven automation for Mailchimp's data platform.
+Hi, I'm Abhishek. I'm an MS CS student at Georgia Tech, specializing in Machine Learning with a 4.0 GPA. This summer, I'm interning at Intuit, building data pipelines and agentic MCP-driven automation for Mailchimp's data platform.
 
 On campus, I got the opportunity to work on RPKI and BGP security pipelines at the Internet Intelligence Lab, and I serve as a Graduate Teaching Assistant for Data & Visual Analytics (CSE 6242).
 
-Before grad school, I was a Software Engineer at Wells Fargo, where I built pricing systems and gained hands-on experience in the finance domain. I have also worked on multimodal LLM research at IIIT Delhi's MIDAS Lab (AAAI'26 workshop paper), and I graduated first in my class in Computer Engineering at COEP Pune, as the Institute Gold Medalist.
+Before grad school, I was a Software Engineer at Wells Fargo, where I built enterprise pricing systems for the finance domain, owning features end to end across the SDLC, from design and development to CI/CD and production release. I have also worked on multimodal LLM research at IIIT Delhi's MIDAS Lab, and I graduated first in my class in Computer Engineering at COEP Pune, as the Institute Gold Medalist.
 
 <style>
   .skill-chips { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0.75rem 0 1rem; }
