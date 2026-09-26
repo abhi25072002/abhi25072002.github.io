@@ -28,7 +28,6 @@ BLOCKED_PATTERNS = [
     r"drive\.google\.com",               # transcript / private doc links
     r"abhishekdharmadhikari25@gmail",    # personal email
     r"abhigatechusa@gmail",              # personal email
-    r"tesla",                             # not announced yet
     r"111903007",                         # COEP registration code (from transcript)
     r"25/07/2002",                        # date of birth (from transcript)
     r"\+91-20-\d{8}",                    # COEP institutional phone (from transcript)

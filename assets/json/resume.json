@@ -32,6 +32,18 @@
   },
   "work": [
     {
+      "name": "Tesla",
+      "position": "Software Engineering Intern - Manufacturing Quality Team",
+      "url": "https://www.tesla.com/",
+      "location": "Fremont, CA, USA",
+      "startDate": "2026-08",
+      "endDate": "2026-12",
+      "summary": "Software Engineering Intern on the Manufacturing Quality team.",
+      "highlights": [
+        "Building software for Tesla's manufacturing quality systems."
+      ]
+    },
+    {
       "name": "Intuit",
       "position": "ML/Data Engineering Summer Intern - Mailchimp Core Data Products Team",
       "url": "https://www.intuit.com/",
