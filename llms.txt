@@ -13,6 +13,9 @@
 
 ## Experience
 
+### Software Engineering Intern - Manufacturing Quality Team at Tesla (2026-08 to 2026-12)
+- Building software for Tesla's manufacturing quality systems.
+
 ### ML/Data Engineering Summer Intern - Mailchimp Core Data Products Team at Intuit (2026-05 to 2026-08)
 - Developing large-scale ELT pipelines and data workflows using PySpark, Apache Airflow (workflow orchestration), BigQuery, Dataform, Terraform (infrastructure as code), Kubernetes, and GCP for Mailchimp's Core Data Platform.
 - Designing an agentic MCP-server-driven system to automate the CI/CD validation stage, stage-to-production data-diff analysis, anomaly detection, and deployment verification, improving release reliability and reducing manual effort.
